@@ -68,9 +68,9 @@ The following five packages are all build-in packages in Python:
 - import copy                      #Usage: use deepcopy to copy variables
 - import os                        #Usage: delete files
 
-#The following package is additional package:
+The following package is additional package:
 - import numpy as np               #Usage: mathematical computation
 
-#The following files are dependencies:
+The following files are dependencies:
 - from read import readInput       #Usage: get input
 - from write import writeOutput    #Usage: get output
