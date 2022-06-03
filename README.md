@@ -9,6 +9,7 @@ References:
 To play with the trained AI models, only need:
 - Python >= 3.7
 - Numpy >= 1.20
+
 As dependencies, read.py and write.py should be included in this directory to process .txt input & output.
 
 To train the whole model from scratch, further need:
