@@ -64,14 +64,17 @@ The models (best_policy.model and current_policy.model) will be saved every a fe
 
 ### Some Explainations
 my_player.py doesn't use any off-the-shelf algorithms, all algorithms in my_player.py are build from scratch, so only few packages are used.
+
 The following five packages are all build-in packages in Python:
-    import random                    #Usage: give randomness to policy
-    import time                      #Usage: count time to avoid time out
-    import pickle                    #Usage: convert file into a byte stream for file i/o
-    import copy                      #Usage: use deepcopy to copy variables
-    import os                        #Usage: delete files
+- import random                    #Usage: give randomness to policy
+- import time                      #Usage: count time to avoid time out
+- import pickle                    #Usage: convert file into a byte stream for file i/o
+- import copy                      #Usage: use deepcopy to copy variables
+- import os                        #Usage: delete files
+
 #The following package is additional package:
-    import numpy as np               #Usage: mathematical computation
+- import numpy as np               #Usage: mathematical computation
+
 #The following files are dependencies:
-    from read import readInput       #Usage: get input
-    from write import writeOutput    #Usage: get output
+- from read import readInput       #Usage: get input
+- from write import writeOutput    #Usage: get output
